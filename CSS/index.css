@@ -1,0 +1,120 @@
+*{
+    font-family: 'Poppins';
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    overflow: hidden;
+}
+/* Nav */
+.navbar-brand{
+    font-weight: bold;
+}
+
+.nav-color{
+    background-color: #EBF7E3;
+}
+
+
+
+.nav-link{
+    color: green !important;
+}
+
+.nav-link:hover{
+    color:#9BD770 !important;
+    border-bottom: 1px solid #375F1B;
+    transition: all 0.5s;
+}
+
+
+
+
+.button-daftar{
+    height: 38px;
+    width: 126px;
+    border-radius: 10px;
+    border: none;
+    background-color: #9BD770;
+    color: #375F1B;
+    font-weight: bold;
+    
+}
+.button-daftar:hover{
+    background-color: #375F1B;
+    color: #9BD770;
+    transition: all 0.5s;
+}
+
+.button-masuk{
+    border: none;
+    background:none;
+    color: #375F1B;
+    font-weight: bold;
+}
+
+.button-masuk:hover{
+    color: #9BD770;
+    transition: all 0.5s;
+}
+/* jumbotron */
+.hero-background{
+    background-image: url("../Asset/Gambar/gambar\ sawah\ LP.png");
+    height: 765px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.jumbobrand{
+    font-weight: bold ;
+    font-size: 96px;
+    margin-top: 160px;
+    text-shadow: 0px 7px 4px rgba(0, 0, 0, 0.25);
+}
+
+.sub-jumbobrand{
+    font-size: 64px;
+    text-shadow: 0px 7px 4px rgba(0, 0, 0, 0.25);
+}
+
+.button-artikel{
+    width: 189px;
+    height: 57px;
+    font-size: 36px;
+    color: #375F1B;
+    
+    background: #EBF7E3;
+    box-shadow: 0px 7px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    border: none;
+}
+
+.button-caritani{
+    width: 189px;
+    height: 57px;
+    font-size: 36px;
+    margin-top: 150px;
+    color: #375F1B;
+    
+    background: #EBF7E3;
+    box-shadow: 0px 7px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    border: none;
+    
+}
+
+.button-artikel:hover{
+    background-color: #375F1B;
+    color: #EBF7E3;
+    transition: all 0.5s;
+    box-shadow: 0px 13px 4px rgba(2, 201, 22, 0.25);
+}
+
+.button-caritani:hover{
+    background-color: #375F1B;
+    color: #EBF7E3;
+    transition: all 0.5s;
+    box-shadow: 0px 13px 4px rgba(2, 201, 22, 0.25);
+}

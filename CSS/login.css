@@ -1,0 +1,61 @@
+*{
+    font-family: 'Poppins';
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("../Asset/Gambar/padi\ kuning.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Nav */
+.navbar-brand{
+    font-weight: bold;
+}
+
+.nav-color{
+    background-color: #EBF7E3;
+}
+
+
+
+.nav-link{
+    color: green !important;
+}
+
+.nav-link:hover{
+    color:#9BD770 !important;
+    border-bottom: 1px solid #375F1B;
+    transition: all 0.5s;
+}
+
+
+
+
+.button-daftar{
+    height: 38px;
+    width: 126px;
+    border-radius: 10px;
+    border: none;
+    background-color: #9BD770;
+    color: #375F1B;
+    font-weight: bold;
+    
+}
+.button-daftar:hover{
+    background-color: #375F1B;
+    color: #9BD770;
+    transition: all 0.5s;
+}
+
+/* Login */
+
+.judul-login{
+    color: #375F1B;
+    font-weight: bold;
+    font-size: 64px;
+}
+
