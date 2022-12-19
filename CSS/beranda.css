@@ -3,6 +3,63 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    
+}
+
+/* body */
+body{
+    background-color: #EBF7E3 !important;
+}
+/* Nav */
+.navbar-brand{
+    font-weight: bold;
+}
+
+.nav-color{
+    background-color: #EBF7E3;
+}
+
+
+
+.nav-link{
+    color: green !important;
+}
+
+.nav-link:hover{
+    color:#9BD770 !important;
+    border-bottom: 1px solid #375F1B;
+    transition: all 0.5s;
+}
+
+
+
+
+.button-daftar{
+    height: 38px;
+    width: 126px;
+    border-radius: 10px;
+    border: none;
+    background-color: #9BD770;
+    color: #375F1B;
+    font-weight: bold;
+    
+}
+.button-daftar:hover{
+    background-color: #375F1B;
+    color: #9BD770;
+    transition: all 0.5s;
+}
+
+.button-masuk{
+    border: none;
+    background:none;
+    color: #375F1B;
+    font-weight: bold;
+}
+
+.button-masuk:hover{
+    color: #9BD770;
+    transition: all 0.5s;
 }
 
 /* section1 */
@@ -43,13 +100,10 @@ width: 246px;
 height: 132px;
 left: 732px;
 top: 997px;
-
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 800;
 font-size: 36px;
 line-height: 93%;
-
+font-weight: bold;
+padding-top: 50px;
 
 color: #375F1B;
 
