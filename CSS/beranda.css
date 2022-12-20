@@ -3,4 +3,109 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    
+}
+
+/* body */
+body{
+    background-color: #EBF7E3 !important;
+}
+/* Nav */
+.navbar-brand{
+    font-weight: bold;
+}
+
+.nav-color{
+    background-color: #EBF7E3;
+}
+
+
+
+.nav-link{
+    color: green !important;
+}
+
+.nav-link:hover{
+    color:#9BD770 !important;
+    border-bottom: 1px solid #375F1B;
+    transition: all 0.5s;
+}
+
+
+
+
+.button-daftar{
+    height: 38px;
+    width: 126px;
+    border-radius: 10px;
+    border: none;
+    background-color: #9BD770;
+    color: #375F1B;
+    font-weight: bold;
+    
+}
+.button-daftar:hover{
+    background-color: #375F1B;
+    color: #9BD770;
+    transition: all 0.5s;
+}
+
+.button-masuk{
+    border: none;
+    background:none;
+    color: #375F1B;
+    font-weight: bold;
+}
+
+.button-masuk:hover{
+    color: #9BD770;
+    transition: all 0.5s;
+}
+
+/* section1 */
+.harga1{
+    background-image: url('../Asset/Gambar/hrgpupuk.png');
+    width: 100%;
+    height: 242px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.harga1 p{
+    color: aqua;
+    padding-top: 90px;
+}
+
+.harga2{
+    background-image: url('../Asset/Gambar/hargaaer.png');
+    height: 242px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.harga3{
+    background-image: url('../Asset/Gambar/hrgpadi.png');
+    height: 242px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* section2 */
+
+.bg-green{
+    background-color: #9BD770;
+}
+.txt{
+width: 246px;
+height: 132px;
+left: 732px;
+top: 997px;
+font-size: 36px;
+line-height: 93%;
+font-weight: bold;
+padding-top: 50px;
+
+color: #375F1B;
+
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }

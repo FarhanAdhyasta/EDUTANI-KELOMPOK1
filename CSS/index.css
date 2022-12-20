@@ -5,9 +5,7 @@
     box-sizing: border-box;
 }
 
-body{
-    overflow: hidden;
-}
+
 /* Nav */
 .navbar-brand{
     font-weight: bold;
