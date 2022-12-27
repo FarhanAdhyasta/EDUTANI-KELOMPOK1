@@ -9,7 +9,11 @@
 /* body */
 body{
     background-color: #EBF7E3 !important;
+    overflow: scroll;
 }
+body::-webkit-scrollbar {
+    display: none; 
+  }
 /* Nav */
 .navbar-brand{
     font-weight: bold;
@@ -71,16 +75,19 @@ body{
     background-size: cover;
 }
 .harga1 p{
-    color: aqua;
-    padding-top: 90px;
+    color: white;
+    border-radius: 18px;
+    
 }
 
-.harga2{
+.harga2 p{
     background-image: url('../Asset/Gambar/hargaaer.png');
     height: 242px;
     background-repeat: no-repeat;
     background-size: cover;
-
+    color: red;
+    border-radius: 15px;
+    
 }
 
 .harga3{
@@ -88,6 +95,7 @@ body{
     height: 242px;
     background-repeat: no-repeat;
     background-size: cover;
+    border-radius: 15px;
 }
 
 /* section2 */
@@ -96,16 +104,44 @@ body{
     background-color: #9BD770;
 }
 .txt{
-width: 246px;
-height: 132px;
-left: 732px;
-top: 997px;
-font-size: 36px;
-line-height: 93%;
-font-weight: bold;
-padding-top: 50px;
+    
+    
+    font-size: 36px;
+    line-height: 93%;
+    font-weight: bold;
+    
+    
+    color: #375F1B;
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
 
-color: #375F1B;
+.txt-right{
+    text-align: end;
+    font-weight: bold;
+    color: #375F1B;
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
 
-text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+.btn-shadow{
+    width: 142px;
+    left: 732px;
+    font-weight: bold !important;
+    border: none !important;
+    background: #375F1B !important;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+.btn-shadow:hover{
+    background: #66B032 !important;
+    border: none;
+    box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.25);
+    transition: all 0.5s;
+    
+}
+
+.pt-cwek{
+    margin-left: 200px;
 }
