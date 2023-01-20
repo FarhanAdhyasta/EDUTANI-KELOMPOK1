@@ -3,6 +3,7 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    background-color: #EBF7E3;
 }
 
 body{
@@ -82,13 +83,14 @@ img {
     width: auto;
 }
 
-.tentang {
-    width: 78.9rem;
+.tentang{
+    width: 99rem;
 }
 
 .tentang-background {
+    width: 99rem;
     gap: 0rem;
-    grid-template-rows: 29rem 4rem 3rem 17rem;
+    grid-template-rows: 33rem 4rem 3rem 17rem;
 }
 
 .title {
@@ -99,8 +101,8 @@ img {
 }
 
 .sub-title {
-    grid-template-columns: 59px 24px 4rem;
-    justify-content: center;
+    display: block;
+    text-align: center;
     font-size: 2rem;
 }
 
@@ -109,11 +111,11 @@ img {
 }
 
 .description {
-    width: 50rem;
+    width: 55rem;
     position: relative;
     grid-template-columns: 489px 30rem;
     gap: 29px;
-    left: 8rem;
+    left: 17.9rem;
 }
 
 .paraghp {
@@ -236,3 +238,4 @@ img {
     font-weight: 800;
     font-style: normal;
 }
+

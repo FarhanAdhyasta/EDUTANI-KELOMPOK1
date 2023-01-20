@@ -1,0 +1,195 @@
+*{
+    font-family: 'Poppins';
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    
+}
+
+/* body */
+body{
+    background-color: #EBF7E3 !important;
+    overflow: scroll;
+}
+body::-webkit-scrollbar {
+    display: none; 
+}
+
+button {
+    border: none;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: .938rem;
+}
+
+/* Nav */
+.navbar-brand{
+    font-weight: bold;
+}
+
+.nav-color{
+    background-color: #EBF7E3;
+}
+
+
+
+.nav-link{
+    color: green !important;
+}
+
+.nav-link:hover{
+    color:#9BD770 !important;
+    border-bottom: 1px solid #375F1B;
+    transition: all 0.5s;
+}
+
+
+
+
+.button-daftar{
+    height: 38px;
+    width: 126px;
+    border-radius: 10px;
+    border: none;
+    background-color: #9BD770;
+    color: #375F1B;
+    font-weight: bold;
+    
+}
+.button-daftar:hover{
+    background-color: #375F1B;
+    color: #9BD770;
+    transition: all 0.5s;
+}
+
+.button-masuk{
+    border: none;
+    background:none;
+    color: #375F1B;
+    font-weight: bold;
+}
+
+.button-masuk:hover{
+    color: #9BD770;
+    transition: all 0.5s;
+}
+
+/* section1 */
+.content {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+}
+
+.images {
+    width: 522px;
+    height: 280px;
+    border-radius: 10px;
+    margin: 10px;
+
+}
+
+.texts {
+    color: #375F1B;
+    font-size: 20px;
+    clear: both;
+    display: table;
+}
+
+.textj {
+    color: #375F1B;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.button {
+    display: inline-block;
+    background-color: #66B032;
+    color: #EBF7E3;
+    padding: 1rem, 1.75rem;
+    border-radius: .5rem;
+    font-weight: 500;
+    transition: .3s;
+
+}
+
+.button:hover {
+    background-color: hsl(14, 91%, 50%);
+}
+
+.harga1{
+    background-image: url('../Asset/Gambar/cara menanam bibit padi.png');
+    width: 522px;
+    height: 280px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.harga1 p{
+    color: white;
+    border-radius: 18px;
+    
+}
+
+.harga2 p{
+    background-image: url('../Asset/Gambar/hargaaer.png');
+    height: 242px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: red;
+    
+}
+
+.harga3{
+    background-image: url('../Asset/Gambar/hrgpadi.png');
+    height: 242px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+}
+
+/* section2 */
+
+.bg-green{
+    background-color: #9BD770;
+}
+.txt{
+    
+    
+    font-size: 36px;
+    line-height: 93%;
+    font-weight: bold;
+    
+    
+    color: #375F1B;
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.txt-right{
+    text-align: end;
+    font-weight: bold;
+    color: #375F1B;
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.btn-shadow{
+    width: 142px;
+    left: 732px;
+    font-weight: bold !important;
+    border: none !important;
+    background: #375F1B !important;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+.btn-shadow:hover{
+    background: #66B032 !important;
+    border: none;
+    box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.25);
+    transition: all 0.5s;
+    
+}
+
+.pt-cwek{
+    margin-left: 200px;
+}
